@@ -18,7 +18,7 @@ Example profiles for various hardware devices and protocols can be found in this
 
 ## Prerequisites
 
-Thingworx Kepware Server (TKS) and KEPServerEX (KSE) v5 and up.
+ThingWorx Kepware Server (TKS) and KEPServerEX (KSE) v5 and up.
 
 ## Issues
 

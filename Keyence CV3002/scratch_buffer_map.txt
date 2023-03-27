@@ -1,0 +1,75 @@
+The following Scratch Buffers are used:
+**********************************************
+
+SB#s / Tag Group(s)
+
+
+1 / Controller_Settings.Mode_Control
+
+2,3 / Controller_Settings.Date_Time
+
+
+::::::::::::::::::::::::::::::::::::::::::::::
+note: this is the only polled command:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::
+
+4 / Meas_Output_M0_polled
+
+use of Pause commands to set 5 sec poll delay
+regardless of Group Update rate in OPC client
+::::::::::::::::::::::::::::::::::::::::::::::
+
+
+10,11,12 / Program_Number
+
+13 / Repeat_Output_Meas
+
+14 / Perform_Trigger1
+
+15,16 / Window_Control
+
+18,19 / DisplaySetting.Template_Switching
+
+20,21 / DisplaySetting.Result_Switching
+
+24,25 / DisplaySetting.Page_Switching
+
+26,27 / DisplaySetting.Screen_Switching
+
+30 / ImageCommands.Screen_Capture
+
+32,33,34 / ImageCommands.Register_Image
+
+36,37,38,39,40 / ImageCommands.Retrieve_List
+
+42,43,44,45 / Library_List
+
+46,47,48,49 / Binary_Filter_Data
+
+50,51,52,53,54,55 / Meas_or_Calc_Limits
+
+56,57,58,59 / Camera_Settings
+
+60 / Recalc_Ref_Val
+
+62 / Controller_Settings.Save_Prog_Settings
+
+64 / Controller_Settings.Reset_Prog_Settings
+
+66 / Controller_Settings.Trigger_Input
+
+68,69,70 / Controller_Settings.External_Devices
+
+72,73,74 / Controller_Settings.Password
+
+76,77 / Controller_Settings.CN_Pseudo_Input
+
+78,79 / Controller_Settings.Echoing
+
+80,81 / Controller_Settings.Save_Statistical_Data
+
+
+
+
+
+

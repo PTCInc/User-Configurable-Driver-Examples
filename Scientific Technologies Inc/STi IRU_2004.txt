@@ -1,0 +1,42 @@
+*******************************************************
+* Scientific Technologies Inc                           *
+* IRU-2004 Ultrasonic Tank Level Monitor         *
+* Sensor Profile                                             *
+* Created By: Fred Loveless                           *
+* Title: Technical Support Manager                  *
+* Company: Kepware Technologies                 *
+* Creation Date: 06/06/01                               *
+*******************************************************
+
+*Introduction*
+     This profile is designed for solicited communication with the sensor. You can do Unsolicited communicatios with the sensor by setting the Continuous Transmit parameter on. See the UCON help file for details on setting up a profile for unsolicited communications.
+
+*Protocol*
+	This is a standard ASCII protocol. All Protocol Commands can be found in the STi IRU-2004 Users Manual.
+
+* Device Setup*
+	Device ID: 0-9
+	Baud: 9600 (Fixed)
+	Data bits: 8 (Fixed)
+	Stop  bits: 1 (Fixed)
+	Parity: None (Fixed)
+	Flow Control: Set to RTS Always in Server
+
+	We used a B & B Electronics RS232 to 485 Converter (Model 485TBLED).
+		TDA and RDA are jumpered, TDB and RDB are jumpered, Echo and SD are jumpered on.
+
+	Connect TDA to the Orange wire and TDB to the Blue wire.
+
+Special Notes:
+
+     1. Although all the tags in the profile are Read/Write, the following tags will display no values as they are actually write only.
+		Write Only Tags
+          ***************
+		Bank_Number
+		Start_Sensor_Transmit
+		Stop_Sensor_Transmit
+		Start_Bank_Transmit
+		Stop_Bank_Transmit
+		Reset_Sensor
+
+     2. All tags are shorts or bytes except for Callibration which has been scaled to a Float from a short. The raw value is 0100-1000 and the scaled valueis .1-1.999.
